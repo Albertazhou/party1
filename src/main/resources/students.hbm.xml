@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+
+	<class name="com.party.entity.Students" table="students">
+		<id name="stu_id" type="java.lang.String">
+
+			
+		</id>
+		<property name="stu_name" type="java.lang.String">
+
+		</property>
+		<property name="stu_Passwd" type="java.lang.String">
+
+		</property>
+		<property name="stu_class" type="java.lang.String">
+
+		</property>
+		<property name="statu" type="java.lang.String"></property>
+		<property name="period" type="java.lang.String"></property>
+
+
+	</class>
+</hibernate-mapping>
